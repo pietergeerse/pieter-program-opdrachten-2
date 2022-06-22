@@ -9,9 +9,10 @@ module.exports = {som}
 function som (a, b) {
   var uitkomst = undefined;
   
-  // vul hieronder aan:
+  uitkomst = a + b;
 
   
   return uitkomst;
 }
 
+// gedaan
