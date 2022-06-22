@@ -1,0 +1,8 @@
+ports:
+  - port: 3000
+    onOpen: open-browser
+tasks:
+  - name: testReportServer
+    before: cd backend
+    init: npm install
+    command: node server-app.js
